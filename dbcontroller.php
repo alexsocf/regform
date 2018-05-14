@@ -48,13 +48,6 @@ class DBController {
 		}
 	}
 	
-	function deleteQuery($query) {
-		$result = mysqli_query($this->conn,$query);
-		if (!$result) {
-			die('Invalid query: ' . mysql_error());
-		} else {
-			return $result;
-		}
-	}
+	
 }
 ?>
