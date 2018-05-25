@@ -1,5 +1,5 @@
 body{
-	font-size: 40px;
+	font-size: 30px;
 	font-family:Microsoft JhengHei;
 }
 .content {
@@ -70,6 +70,10 @@ body{
 	font-size: 20px;
 }
 
+.searchdisplay{
+	width: 40%;
+	display:inline-block;
+}
 
 	.container
 			{font-size:25px;
